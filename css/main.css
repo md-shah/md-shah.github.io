@@ -220,10 +220,10 @@ xclip
     max-width: 768px;
     text-align: left;
     position: fixed;
-    padding-top: 10%;
+    padding-top: 12%;
     padding-left: 8%;
     padding-right: 8%;
-    padding-bottom: 10%;
+    padding-bottom: 12%;
 }
 
 .cd-intro {
