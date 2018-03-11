@@ -371,7 +371,7 @@
     }
 }
 
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-min-device-pixel-ratio: 2.7) and (orientation: portrait) {
+@media screen and (min-device-width: 1080px) and (max-device-height: 1920) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
     body {
         overflow: scroll;
         height: 100%;
@@ -558,7 +558,7 @@
     }
 }
 
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-min-device-pixel-ratio: 1.7) and (orientation: portrait) {
+/* @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-min-device-pixel-ratio: 1.7) and (orientation: portrait) {
     body {
         overflow: scroll;
         height: 100%;
@@ -743,8 +743,8 @@
     .row:after {
         clear: none;
     }
-}
-
+/* } */
+/* 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-min-device-pixel-ratio: 2.5) and (orientation: portrait) {
     body {
         overflow: scroll;
@@ -930,4 +930,4 @@
     .row:after {
         clear: none;
     }
-}
+} 
