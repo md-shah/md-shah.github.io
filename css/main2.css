@@ -371,7 +371,7 @@
     }
 }
 
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2.7) and (orientation: portrait) {
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: portrait) {
     body {
         overflow: scroll;
         height: 100%;
