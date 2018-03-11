@@ -10,7 +10,7 @@
     }
     #left {
         background: linear-gradient(150deg, rgb(5, 23, 34), rgb(11, 60, 146));
-        height: 100%;
+        height: 100vh;
         background-size: cover;
     }
     #right {
