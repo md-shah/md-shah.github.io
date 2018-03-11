@@ -10,13 +10,13 @@
     }
     #left {
         background: linear-gradient(150deg, rgb(5, 23, 34), rgb(11, 60, 146));
-        height: 90vh;
+        height: 100vh;
         background-size: cover;
     }
     #right {
         /* background: linear-gradient(deg,rgb(70, 9, 9), rgb(202, 202, 202));  */
         background: linear-gradient(60deg, rgb(226, 226, 226), rgb(202, 202, 202));
-        height: 90vh;
+        height: 100vh;
         overflow: hidden;
     }
     /* ---- particles.js container ---- */
@@ -196,13 +196,13 @@
     }
     #left {
         background: linear-gradient(150deg, rgb(5, 23, 34), rgb(11, 60, 146));
-        height: 90vh;
+        height: 100vh;
         background-size: cover;
     }
     #right {
         /* background: linear-gradient(deg,rgb(70, 9, 9), rgb(202, 202, 202));  */
         background: linear-gradient(60deg, rgb(226, 226, 226), rgb(202, 202, 202));
-        height: 90vh;
+        height: 100vh;
         overflow: hidden;
     }
     /* ---- particles.js container ---- */
@@ -371,7 +371,7 @@
     }
 }
 
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-min-device-pixel-ratio: 2.5) and (orientation: portrait) {
     body {
         overflow: scroll;
         height: 100%;
@@ -383,13 +383,13 @@
     }
     #left {
         background: linear-gradient(150deg, rgb(5, 23, 34), rgb(11, 60, 146));
-        height: 90vh;
+        height: 100vh;
         background-size: cover;
     }
     #right {
         /* background: linear-gradient(deg,rgb(70, 9, 9), rgb(202, 202, 202));  */
         background: linear-gradient(60deg, rgb(226, 226, 226), rgb(202, 202, 202));
-        height: 90vh;
+        height: 100vh;
         overflow: hidden;
     }
     /* ---- particles.js container ---- */
