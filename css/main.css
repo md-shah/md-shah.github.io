@@ -51,6 +51,7 @@
         padding-bottom: 20px;
         margin-left: 20px;
         outline: none;
+        cursor: pointer;
     }
     .icon {
         height: 30px;
@@ -59,6 +60,10 @@
     }
     .icon:hover {
         filter: grayscale(0);
+    }
+
+    .icon:active{
+        animation: effect_dylan 0.8s ease-out;
     }
     .image {
         position: relative;
@@ -345,5 +350,21 @@ xclip
         overflow: auto;
         height: auto;
     }
-    
+}
+
+/* animtion click */
+
+@keyframes effect_dylan {
+    50% {
+        transform: scale(1.5, 1.5);
+        opacity: 0;
+    }
+    99% {
+        transform: scale(0.001, 0.001);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(0.001, 0.001);
+        opacity: 1;
+    }
 }
