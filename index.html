@@ -10,45 +10,45 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-     <link type="text/css" rel="stylesheet" href="css/main.css" />
-      <link type="text/css" rel="stylesheet" href="css/main1.css" />  
+    <!-- <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/main1.css" /> -->
     <link type="text/css" rel="stylesheet" href="css/main2.css" />
-   
+
     <script src="js/modernizr.js"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
     <div class="loading">
-            <div class="loader">
-     
-                </div>
+        <div class="loader">
+
+        </div>
     </div>
 
     <div id="contain" class="row">
 
         <div id="left" class="col s12 m6 l7">
-             <div id="particles-js">
-                 <section class="cd-intro">
+            <div id="particles-js">
+                <section class="cd-intro">
                     <!-- <h4 class="iam">I am</h4>  -->
                     <h1 class="cd-headline clip is-full-width">
-                            
-                          <span class="cd-words-wrapper">
-                            
-                             <b class="is-visible">Designer</b>
+
+                        <span class="cd-words-wrapper">
+
+                            <b class="is-visible">Designer</b>
                             <b>Developer</b>
                             <b>Dreamer</b>
-                        </span>  
+                        </span>
                     </h1>
-                </section> 
-            </div> 
+                </section>
+            </div>
         </div>
         <div id="right" class="col s12 m6 l5 ">
             <div class="contain">
                 <div class="image-pos">
                     <img class="image" src="images/me.jpg" alt="shah">
                 </div>
-                 <div class="name1">
+                <div class="name1">
                     <h3 class="name">Muhammed Shah</h3>
                 </div>
 
@@ -59,7 +59,7 @@
 
                     </p>
                 </div>
-             <div class="icon1">
+                <div class="icon1">
                     <a class="icon1" target="_blank" href="http://www.facebook.com/mdshah.live">
                         <img class="icon" src="icons/fb.png" alt="facebook">
                     </a>
@@ -75,12 +75,12 @@
 
 
                 </div>
-               <div class="btn-root">
+                <div class="btn-root">
 
                     <a href="mailto:muhammedshah@live.in?Subject=fwded_from_website" target="_top" class="btn-btn waves-effect waves-light ">Say Hello!</a>
 
-                </div> 
-            </div> 
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -90,10 +90,16 @@
     <script src="js/main.js"></script>
 
     <script>
-        $(window).load(function() {
-		// Animate loader off screen
-		$(".loading").fadeOut("3000");;
-	});
+        $(window).load(function () {
+            // Animate loader off screen
+            $(".loading").fadeOut("3000");;
+        });
+
+
+
+
+        document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=' + (1 /
+            window.devicePixelRatio) + ', maximum-scale=1.0, user-scalable=0');
     </script>
 </body>
 
