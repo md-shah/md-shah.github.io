@@ -1,4 +1,4 @@
-@media all and (min-width: 1199px) {  
+@media all and (min-width: 1199px) {
     /* Styles */
     html,
     body {
@@ -61,10 +61,7 @@
     .icon:hover {
         filter: grayscale(0);
     }
-
-    .icon:active{
-        
-    }
+    .icon:active {}
     .image {
         position: relative;
         height: 150px;
@@ -126,14 +123,7 @@
         animation-duration: 4s;
         animation-iteration-count: 1;
     }
-    /* .contain {
-    padding-top: 50px;
-} */
-    /* -------------------------------- 
-
-xclip 
-
--------------------------------- */
+    /* xclip --------------------------- */
     .cd-headline.clip span {
         display: inline-block;
         padding: .2em 0;
@@ -174,114 +164,63 @@ xclip
         font-size: 2.4rem;
         font-weight: 700;
     }
-}
-
-@media only screen and (min-width: 768px) {
-    .cd-title {
-        line-height: 250px;
+    .cd-intro {
+        width: 90%;
+        height: 100%;
+        max-width: 768px;
+        text-align: center;
+        position: absolute;
+        padding-top: 15%;
+        padding-left: 7%;
+        padding-right: 5%;
+        padding-bottom: 18%;
+        /* vertical-align: middle;     */
     }
-}
-
-@media only screen and (min-width: 1170px) {
-    .cd-title {
-        height: 200px;
-        line-height: 300px;
+    .cd-intro {
+        margin: 4em auto;
     }
-    .cd-title h1 {
+    .cd-headline {
         font-size: 3rem;
+        line-height: 1.2;
     }
-}
-
-.cd-intro {
-    width: 90%;
-    height: 100%;
-    max-width: 768px;
-    text-align: center;
-    position: absolute;
-    padding-top: 15%;
-    padding-left: 7%;
-    padding-right: 5%;
-    padding-bottom: 18%;
-    /* vertical-align: middle;     */
-}
-
-.cd-intro {
-    margin: 4em auto;
-}
-
-@media only screen and (min-width: 768px) {
-    .cd-intro {
-        margin: 5em auto;
+    .cd-words-wrapper {
+        display: inline-block;
+        position: relative;
+        text-align: left;
     }
-}
-
-@media only screen and (min-width: 1170px) {
-    .cd-intro {
-        margin: 6em auto;
+    .cd-words-wrapper b {
+        display: inline-block;
+        position: absolute;
+        white-space: nowrap;
+        left: 0;
+        top: 0;
     }
-}
-
-.cd-headline {
-    font-size: 3rem;
-    line-height: 1.2;
-}
-
-@media only screen and (min-width: 768px) {
-    .cd-headline {
-        font-size: 4.4rem;
-        font-weight: 300;
+    .cd-words-wrapper b.is-visible {
+        position: relative;
     }
-}
-
-@media only screen and (min-width: 1170px) {
-    .cd-headline {
-        font-size: 6rem;
+    .no-js .cd-words-wrapper b {
+        opacity: 0;
     }
-}
-
-.cd-words-wrapper {
-    display: inline-block;
-    position: relative;
-    text-align: left;
-}
-
-.cd-words-wrapper b {
-    display: inline-block;
-    position: absolute;
-    white-space: nowrap;
-    left: 0;
-    top: 0;
-}
-
-.cd-words-wrapper b.is-visible {
-    position: relative;
-}
-
-.no-js .cd-words-wrapper b {
-    opacity: 0;
-}
-
-.no-js .cd-words-wrapper b.is-visible {
-    opacity: 1;
-}
-
-/* loading aniamtion */
-
-#loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid #3498db;
-    width: 120px;
-    height: 120px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    .no-js .cd-words-wrapper b.is-visible {
+        opacity: 1;
+    }
+    /* loading aniamtion */
+    #loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
+        width: 150px;
+        height: 150px;
+        margin: -75px 0 0 -75px;
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    }
 }
 
 @-webkit-keyframes spin {
@@ -343,16 +282,6 @@ xclip
     background-color: #174880;
     z-index: 999999;
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-    body {
-        overflow: auto;
-        height: auto;
-    }
-}
-
-/* animtion click */
 
 @keyframes effect_dylan {
     50% {
