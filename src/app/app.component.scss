@@ -1,0 +1,26 @@
+.bg {
+  background-image: linear-gradient(91.9deg, rgba(75, 207, 250, 1) 6.3%, rgba(25, 159, 249, 1) 98.9%);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .coming-soon {
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 40vh;
+    font-size: 120px;
+    text-align: center;
+  }
+
+  .last-updated {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+h1 {
+  margin: 0%;
+}
